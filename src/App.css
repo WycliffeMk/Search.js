@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+*{
+  box-sizing: border-box;
+  padding: o;
+  margin: 0;
+  font-family: sans-serif;
+}
+.Header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #0f50d1;
+  margin: 20px;
+  outline-width: 5px;
+  border-radius: 5%;
+}
+ .input{
+  right: 10px;
+  left: 10px;
+ }
+ .List{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
