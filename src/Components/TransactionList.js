@@ -2,7 +2,9 @@ import React from "react";
 
 
 function TransactionsList() {
+  
   return (
+    <div className="Table">
     <table className=" Table">
       <tbody>
         <tr>
@@ -21,6 +23,7 @@ function TransactionsList() {
         </tr>
       </tbody>
     </table>
+    </div>
   );
 }
 
